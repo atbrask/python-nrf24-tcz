@@ -1,0 +1,12 @@
+Title:          python-nrf24.tcz
+Description:    Python port of maniacbug's RF24 library for NRF24L01+ radios
+Version:        1.0
+Author:         Joao Paulo Barraca
+Original-site:  https://github.com/jpbarraca/pynrf24
+Copying-policy: GNU GPL v3
+Size:           -
+Extension_by:   atbrask
+Tags:           PYTHON NRF24L01
+Comments:       Customized for Raspberry Pi
+Change-log:     ----
+Current:        2014/10/20 First version

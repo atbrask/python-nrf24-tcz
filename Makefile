@@ -1,0 +1,19 @@
+PYTHON = python
+TCZ-PACK = tcz-pack
+
+all: clean get build
+
+build:
+	$(PYTHON) setup.py install --prefix=python-nrf24/usr/local
+	sudo echo "/etc/sysconfig/tcedir" > /opt/.tce_dir # <-- huge hack
+	$(TCZ-PACK) python-nrf24
+	cp /tmp/tcztools/python-nrf24.tcz .
+	cp /tmp/tcztools/python-nrf24.tcz.list .
+	cp /tmp/tcztools/python-nrf24.tcz.md5.txt .
+
+clean:
+	rm -rf pynrf24 python-nrf24 nrf24.py
+
+get:
+	git clone https://github.com/atbrask/pynrf24.git
+	cp pynrf24/nrf24.py .
