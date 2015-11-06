@@ -1,1 +1,1 @@
-8daf994ce0f0eac072c2cdebdf2f9533  python-nrf24.tcz
+2b4d52f0928db0dc763a1ee8014a4b32  python-nrf24.tcz
