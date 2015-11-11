@@ -15,4 +15,4 @@ clean:
 	rm -rf pynrf24 python-nrf24
 
 get:
-	git clone https://www.github.com/jpbarraca/pynrf24.git
+	git clone https://www.github.com/atbrask/pynrf24.git
